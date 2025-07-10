@@ -1,5 +1,5 @@
 import SyntaxHighlighter from "react-syntax-highlighter";
-import { dracula } from "react-syntax-highlighter/dist/esm/styles/prism";
+import { dracula } from "react-syntax-highlighter/dist/cjs/styles/prism"; //changed from esm to cjs
 import "highlight.js/styles//a11y-dark.min.css";
 import { IonIcon } from "@ionic/react";
 import { clipboardOutline, checkmarkOutline } from "ionicons/icons";
